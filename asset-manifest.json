@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sweeft-task/static/css/main.ad1d8429.css",
+    "main.js": "/sweeft-task/static/js/main.1fb08e8d.js",
+    "index.html": "/sweeft-task/index.html",
+    "main.ad1d8429.css.map": "/sweeft-task/static/css/main.ad1d8429.css.map",
+    "main.1fb08e8d.js.map": "/sweeft-task/static/js/main.1fb08e8d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad1d8429.css",
+    "static/js/main.1fb08e8d.js"
+  ]
+}

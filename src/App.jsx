@@ -10,18 +10,16 @@ const App = () => {
     setId(item);
   };
   return (
-    <Router>
-      <div className="app">
-        <Routes>
-          <Route exact path="/" element={<UserList childItem={childItem} />} />
-          <Route
-            exact
-            path={`/user/${id}`}
-            element={<UserPage childItem={childItem} id={id} />}
-          />
-        </Routes>
-      </div>
-    </Router>
+    <div className="app">
+      <Routes>
+        <Route exact path="/" element={<UserList childItem={childItem} />} />
+        <Route
+          exact
+          path={`/user/${id}`}
+          element={<UserPage childItem={childItem} id={id} />}
+        />
+      </Routes>
+    </div>
   );
 };
 
